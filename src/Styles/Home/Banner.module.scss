@@ -1,0 +1,48 @@
+.bannerSection {
+  padding-bottom: 80px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+
+    .connect {
+      font-size: 18px;
+      line-height: 24px;
+      color: #fff;
+      border: 1px solid #ffffff;
+      border-radius: 6px;
+      width: 151px;
+      height: 60px;
+    }
+  }
+  .main {
+    @media (max-width: 900px) {
+      flex-direction: column-reverse;
+    }
+  }
+  .heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .subHeading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .bannerRight {
+    width: 100%;
+  }
+}

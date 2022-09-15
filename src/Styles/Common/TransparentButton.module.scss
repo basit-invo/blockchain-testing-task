@@ -1,0 +1,47 @@
+.viewAll {
+  margin-top: 50px;
+
+  div {
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    width: 220px;
+    height: 60px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -2px;
+      bottom: -2px;
+      left: -2px;
+      right: -2px;
+      background: linear-gradient(
+        261deg,
+        #7c3ecf 6.07%,
+        #5a85ec 56.1%,
+        #fb47b6 95.86%
+      );
+      z-index: -1;
+      border-radius: 6px;
+    }
+  }
+
+  button {
+    position: relative;
+    width: 220px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    background: linear-gradient(
+      91deg,
+      #7c3ecf 6.07%,
+      #5a85ec 56.1%,
+      #fb47b6 95.86%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
