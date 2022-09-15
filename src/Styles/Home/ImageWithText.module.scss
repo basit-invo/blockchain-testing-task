@@ -5,6 +5,9 @@
 
   img {
     @media (max-width: 900px) {
+      width: 450px;
+    }
+    @media (max-width: 600px) {
       width: 100%;
     }
   }
@@ -25,6 +28,10 @@
     line-height: 40px;
     color: #020416;
     margin-bottom: 15px;
+
+    @media (max-width: 600px) {
+      font-size: 24px;
+    }
   }
   .description {
     font-weight: 500;
@@ -32,5 +39,9 @@
     line-height: 36px;
     color: #020416;
     margin-bottom: 20px;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
   }
 }

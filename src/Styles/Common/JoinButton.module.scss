@@ -9,6 +9,14 @@
     font-size: 24px;
     line-height: 28px;
 
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 400px) {
+      width: 340px;
+    }
+
     &:hover {
       background: #ffffff;
       color: #6e8ef1;
