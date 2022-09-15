@@ -10,7 +10,9 @@ const TransparentButton = ({ text, section }) => {
           section === "ownership" ? `${Classes.bgWhite}` : `${Classes.bgGray}`
         }
       >
-        <Button>{text} </Button>
+        <a href="https://medium.com/@yoiu/yoiu-a-gateway-to-the-future-of-blockchain-f06d636eefc6">
+          <Button>{text} </Button>
+        </a>
       </div>
     </Box>
   );

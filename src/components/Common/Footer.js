@@ -15,7 +15,9 @@ const Footer = () => {
           <Box className={Classes.socialIcons}>
             <img src={Facebook} alt="facebook" />
             <img src={Instagram} alt="Instagram" />
-            <img src={Twitter} alt="Twitter" />
+            <a href="https://twitter.com/yoiu_io">
+              <img src={Twitter} alt="Twitter" />
+            </a>
             <img src={Git} alt="Git" />
           </Box>
         </Box>
