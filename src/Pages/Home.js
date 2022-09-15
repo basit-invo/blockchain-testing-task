@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/Home/Banner";
 import Listing from "../components/Home/Listing";
 import ImageWithText from "../components/Home/ImageWithText";
+import Startup from "../components/Home/Startup";
 import EarlyImg from "../images/earlyAdoption.svg";
 import ownershipImg from "../images/ownership.svg";
 import popImg from "../images/pop.svg";
@@ -41,6 +42,7 @@ const Home = () => {
       <ImageWithText data={earlyAdoption} />
       <ImageWithText data={ownership} />
       <ImageWithText data={pop} />
+      <Startup />
     </div>
   );
 };

@@ -29,7 +29,10 @@ const ImageWithText = ({ data }) => {
               <Typography className={Classes.description}>
                 {data.description}
               </Typography>
-              <TransparentButton text={data.buttonText} />
+              <TransparentButton
+                text={data.buttonText}
+                section={data.section}
+              />
             </Grid>
           </Grid>
         </Container>
